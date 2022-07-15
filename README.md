@@ -1,4 +1,4 @@
-# <div align="center"> YoloV5 OpenVino Env Set Up </div>
+# <div align="center"> YoloV5 OpenVino Inference Tutorial </div>
 
 
 This tutorial is based on YoLoV5 **Tag 6.1 and it's weight file (yolov5s.pt)**
