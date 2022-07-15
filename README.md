@@ -14,19 +14,19 @@ Openvino version **Openvino_2021.4.752**
 
 3.```python yolov5\export.py --weights yolov5s.pt --include onnx```
   
-4.Check onnx file with NETRON (https://netron.app/)
+4.Check onnx file with [**NETRON**](https://netron.app/)
   
-5.Find the output Conv
+5.Find the three output Conv (step 7 needs them)
   
 ![oxxn](https://user-images.githubusercontent.com/11920034/179160966-57c34d4c-eb6f-429b-9795-aa3741eb1cdb.PNG)
 
 6.Using openvino model_optimizer folder to generate IR file
 
-7.```Python mo --input_model yolov5s.onnx --scale 255 --reverse_input_channels --output Conv_198,Conv_217,Conv_236```
+7.```Python mo --input_model yolov5s.onnx --scale 255 --reverse_input_channels --output Conv_198,Conv_217,Conv_236 --data_type FP16```
 
-## Yolov5 Openvino Script
+## Run Yolov5 Openvino ipynb
 
-Then you can test openvino yolov5 with below commands.
+Then you can test openvino yolov5 with below commands.(ipynb)
 
 Before running the jupyter notebook, you need to configure openvino.
 
@@ -39,3 +39,9 @@ Step 3 ```cd C:\Program Files (x86)\Intel\openvino_2022\```
 run ```setupvars.bat```
 
 Step 4 launch jupter notebook
+
+**Pay attention, the tutorial can only inference IMG, no video and cam is supported, if you need inference IMG or video, next chapter would be helpful**
+
+## Run Yolov5 Openvino script
+
+
