@@ -26,6 +26,8 @@ Openvino version **Openvino_2021.4.752**
 
 ## Run Yolov5 Openvino ipynb
 
+**Pay attention, the tutorial can only inference IMG, no video and cam is supported, if you need inference IMG or video, next chapter would be helpful**
+
 Then you can test openvino yolov5 with below commands.(ipynb)
 
 Before running the jupyter notebook, you need to configure openvino.
@@ -39,8 +41,6 @@ Step 3 ```cd C:\Program Files (x86)\Intel\openvino_2022\```
 run ```setupvars.bat```
 
 Step 4 launch jupter notebook
-
-**Pay attention, the tutorial can only inference IMG, no video and cam is supported, if you need inference IMG or video, next chapter would be helpful**
 
 ## Run Yolov5 Openvino script
 
