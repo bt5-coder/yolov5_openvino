@@ -27,7 +27,7 @@ Openvino version **Openvino_2021.4.752**
 
 Tips: latest version yolov5 export.py can directly transfer .ps model into .xml and .bin, but I was failed, so I used openvino self mo.py file to transfer the IR model.
 
-## Run Yolov5 Openvino ipynb
+## Yolov5 Openvino and ipynb environment Set Up 
 
 **Pay attention, the tutorial can only inference IMG, no video and cam is supported, if you need inference IMG or video, next chapter would be helpful**
 
@@ -45,7 +45,7 @@ run ```setupvars.bat```
 
 Step 4 launch jupter notebook  ``` jupyter notebook ``` 
 
-## Run Yolov5 Openvino script
+## Run Yolov5 Openvino Script and tutorial
 
 If you are using Intel CPU 
 
