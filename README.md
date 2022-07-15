@@ -54,8 +54,12 @@ If you are using Interl NCS2
 
 ## Reference
 
-https://github.com/ultralytics/yolov5/issues/552
-https://github.com/openvinotoolkit/openvino/issues/11458
-https://blog.csdn.net/qq_44166630/article/details/119994949?spm=1001.2014.3001.5501
-https://github.com/violet17/yolov5_demo
-https://github.com/ultralytics/yolov5
+**https://github.com/ultralytics/yolov5/issues/552**
+
+**https://github.com/openvinotoolkit/openvino/issues/11458**
+
+**https://blog.csdn.net/qq_44166630/article/details/119994949?spm=1001.2014.3001.5501**
+
+**https://github.com/violet17/yolov5_demo**
+
+**https://github.com/ultralytics/yolov5**
