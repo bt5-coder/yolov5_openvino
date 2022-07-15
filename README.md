@@ -25,6 +25,8 @@ Openvino version **Openvino_2021.4.752**
 
 7.```Python mo --input_model yolov5s.onnx --scale 255 --reverse_input_channels --output Conv_198,Conv_217,Conv_236 --data_type FP16```
 
+Tips: latest version yolov5 export.py can directly transfer .ps model into .xml and .bin, but I was failed, so I used openvino self mo.py file to transfer the IR model.
+
 ## Run Yolov5 Openvino ipynb
 
 **Pay attention, the tutorial can only inference IMG, no video and cam is supported, if you need inference IMG or video, next chapter would be helpful**
@@ -33,15 +35,15 @@ Then you can test openvino yolov5 with below commands.(ipynb)
 
 Before running the jupyter notebook, you need to configure openvino.
 
-Step 1 install ANACONDA.
+Step 1 install ANACONDA. 
 
-Step 2 open CMD.exe Prompt in ANACONDA.
+Step 2 open CMD.exe Prompt in ANACONDA. **(I am using ANACONDA, you can also open a cmd window by your environment)**
 
 Step 3 ```cd C:\Program Files (x86)\Intel\openvino_2022\```
 
 run ```setupvars.bat``` 
 
-Step 4 launch jupter notebook
+Step 4 launch jupter notebook  ``` jupyter notebook ``` 
 
 ## Run Yolov5 Openvino script
 
@@ -49,7 +51,7 @@ If you are using Intel CPU
 
 ```python openvino_test.py.py -i cam.jpg -m yolov5s.xml```
 
-If you are using Interl NCS2
+If you are using Intel NCS2
 
 ```python openvino_test.py.py -i cam.jpg -m yolov5s.xml -d MYRAID```
 
