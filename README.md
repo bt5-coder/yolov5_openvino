@@ -21,7 +21,9 @@ Openvino version **Openvino_2021.4.752**
   
 ![oxxn](https://user-images.githubusercontent.com/11920034/179160966-57c34d4c-eb6f-429b-9795-aa3741eb1cdb.PNG)
 
-6.Using openvino model_optimizer folder to generate IR file
+6.Using openvino model_optimizer folder to generate IR file, model_optimizer path is ```C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\model_optimizer```
+
+***If you are using openvino on raspberry, there is no model_optimizer folder, you need using your PC to convert the IR model.***
 
 7.```Python mo --input_model yolov5s.onnx --scale 255 --reverse_input_channels --output Conv_198,Conv_217,Conv_236 --data_type FP16```
 
