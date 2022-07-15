@@ -7,7 +7,7 @@ Python version **3.8.13**
 
 Openvino version **Openvino_2021.4.752**
 
-**The script, openvino model, tutorial can not only run in Windows, but also verified on Raspberry + NCS2**
+**The script, openvino model, tutorial can not only run in Windows, but also verified on Raspberry Pi + NCS2**
 
 ## Generate Onnx file and openvino IR file (.xml , .bin)
 
@@ -25,7 +25,7 @@ Openvino version **Openvino_2021.4.752**
 
 6.Using openvino model_optimizer folder to generate IR file, model_optimizer path is ```C:\Program Files (x86)\Intel\openvino_2021.4.752\deployment_tools\model_optimizer```
 
-***If you are using openvino on raspberry, there is no model_optimizer folder, you need using your PC to convert the IR model.***
+***If you are using openvino on raspberry pi, there is no model_optimizer folder, you need using your PC to convert the IR model.***
 
 7.```Python mo --input_model yolov5s.onnx --scale 255 --reverse_input_channels --output Conv_198,Conv_217,Conv_236 --data_type FP16```
 
