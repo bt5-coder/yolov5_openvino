@@ -70,3 +70,5 @@ If you are using Intel NCS2
 4. **https://github.com/violet17/yolov5_demo**
 
 5. **https://github.com/ultralytics/yolov5**
+
+6. **https://docs.openvino.ai/latest/openvino_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html**
