@@ -61,14 +61,14 @@ If you are using Intel NCS2
 
 ## Reference
 
-1. **https://github.com/ultralytics/yolov5/issues/552**
+1. [**Using YOLOv5 with Neural Compute Stick2 #552**](https://github.com/ultralytics/yolov5/issues/552)
 
-2. **https://github.com/openvinotoolkit/openvino/issues/11458**
+2. [**[Bug] Unable to run custom YOLOv5 with Raspberry PI and NCS2**](https://github.com/openvinotoolkit/openvino/issues/11458)
 
-3. **https://blog.csdn.net/qq_44166630/article/details/119994949?spm=1001.2014.3001.5501**
+3. [**从头在树莓派4B上部署自己训练的yolov5模型（配合NCS2加速）**](https://blog.csdn.net/qq_44166630/article/details/119994949?spm=1001.2014.3001.5501)
 
-4. **https://github.com/violet17/yolov5_demo**
+4. [**violet17/yolov5_demo**](https://github.com/violet17/yolov5_demo)
 
-5. **https://github.com/ultralytics/yolov5**
+5. [**Yolov5**](https://github.com/ultralytics/yolov5)
 
-6. **https://docs.openvino.ai/latest/openvino_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html**
+6. [**Convert model with Model Optimizer**](https://docs.openvino.ai/latest/openvino_docs_MO_DG_Deep_Learning_Model_Optimizer_DevGuide.html)
