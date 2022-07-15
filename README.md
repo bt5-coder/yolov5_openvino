@@ -39,15 +39,15 @@ Then you can test openvino yolov5 with below commands.(ipynb)
 
 Before running the jupyter notebook, you need to configure openvino.
 
-Step 1 install ANACONDA. 
+Step 1. install ANACONDA. 
 
-Step 2 open CMD.exe Prompt in ANACONDA. **(I am using ANACONDA, you can also open a cmd window by your environment)**
+Step 2. open CMD.exe Prompt in ANACONDA. **(I am using ANACONDA, you can also open a cmd window by your environment)**
 
-Step 3 ```cd C:\Program Files (x86)\Intel\openvino_2022\```
+Step 3. ```cd C:\Program Files (x86)\Intel\openvino_2022\```
 
 run ```setupvars.bat``` 
 
-Step 4 launch jupter notebook  ``` jupyter notebook ``` 
+Step 4. launch jupter notebook  ``` jupyter notebook ``` 
 
 ## Run Yolov5 Openvino Script and tutorial
 
