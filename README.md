@@ -7,6 +7,8 @@ Python version **3.8.13**
 
 Openvino version **Openvino_2021.4.752**
 
+**The script, openvino model, tutorial can not only run in Windows, but also verified on Raspberry + NCS2**
+
 ## Generate Onnx file and openvino IR file (.xml , .bin)
 
 1.Download yolov5 https://github.com/ultralytics/yolov5 (Pay attention to the tag!)
