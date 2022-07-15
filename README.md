@@ -38,7 +38,7 @@ Step 2 open CMD.exe Prompt in ANACONDA.
 
 Step 3 ```cd C:\Program Files (x86)\Intel\openvino_2022\```
 
-run ```setupvars.bat```
+run ```setupvars.bat``` 
 
 Step 4 launch jupter notebook
 
